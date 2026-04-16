@@ -1,66 +1,85 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aprendiendo CSS y HTML</title>
-    <!-- VINCULA EL ARCHIVO CSS CON HTML  -->
-    <LINK rel="stylesheet" href="style.css">
-  
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="contenedor1">
-         <!--cabcera de la pagina web  -->
-        <header>
-                <h1>Erick Daniel Vargas Gutierrez</h1>
-                <p>Alumno de Ingenieria de sistemas</p>
+
+        <!-- Cabecera -->
+        <header id="inicio">
+            <h1>Erick Daniel Vargas Gutierrez</h1>
+            <p>Estudiante de Ingeniería de Sistemas</p>
         </header>
+
+        <!-- Menú de navegación -->
         <nav>
             <ul>
                 <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#Docente">Docente</a></li>
-                <li><a href="#Curso">Curso</a></li>
-                <li><a href="#Universidad">Universidad</a></li>
+                <li><a href="#docente">Docente</a></li>
+                <li><a href="#curso">Curso</a></li>
+                <li><a href="#universidad">Universidad</a></li>
                 <li><a href="#contacto">Contacto</a></li>
             </ul>
         </nav>
 
         <div class="contenido-central">
-             <section>
-                    <h2>Información principal</h2>
-                <article>
+
+            <!-- Contenido principal -->
+            <section>
+                <h2>Información principal</h2>
+
+                <article id="docente">
                     <h3>Datos del docente</h3> 
                     <p>El Mg. Elvio Tintaya Zegarra es docente del curso de Programación Web, orientando a los estudiantes en el desarrollo de páginas web modernas.</p>
-                 
                 </article>
-                <article>
+
+                <article id="universidad">
                     <h3>Datos institucionales</h3>
-                    <p>Universidad Tecnológica de los Andes
-                        Escuela Profesional de Ingeniería de Sistemas</p>
+                    <p><strong>Universidad:</strong> Universidad Tecnológica de los Andes</p>
+                    <p><strong>Carrera:</strong> Ingeniería de Sistemas</p>
+                    <p><strong>Estudiante:</strong> Erick Daniel Vargas Gutierrez</p>
                 </article>
-                <article>
+
+                <article id="curso">
                     <h3>Descripción del curso</h3>
-                    <p>El curso desarrolla competencias en HTML5 y CSS3 para la creación de sitios web.
-                    </p>
+                    <p>El curso de Programación Web desarrolla competencias en HTML5 y CSS3 para la creación de sitios web modernos, responsivos y funcionales.</p>
                 </article>
+
+                <article id="contacto">
+                    <h3>Contacto</h3>
+                    <p><strong>Nombre:</strong> Erick Daniel Vargas Gutierrez</p>
+                    <p><strong>Carrera:</strong> Ingeniería de Sistemas</p>
+                    <p><strong>Universidad:</strong> Universidad Tecnológica de los Andes</p>
+                    <p><strong>Correo:</strong> erick.vargas@example.com</p>
+                </article>
+
             </section>  
-<aside>
-    <h3>Información adicional</h3>
-  <!-- buscardor formulario -->
-<div class="buscador">
-    <h4>Buscador</h4>
-        <input type="text" placeholder="Escribe tu búsqueda...">
-        <button type="submit">Buscar</button>
-    </div>
 
-    </aside>
-</div>
+            <!-- Barra lateral -->
+            <aside>
+                <h3>Información adicional</h3>
 
-<footer>
-    <p>Universidad Tecnológica de los Andes</p>
-    <p>Escuela Profesional de Ingeniería de Sistemas</p>
-    <p>&copy; 2026 - Programación Web</p>
-</footer>
-</div>  
+                <!-- Buscador -->
+                <div class="buscador">
+                    <h4>Buscador</h4>
+                    <input type="text" placeholder="Escribe tu búsqueda...">
+                    <button type="submit">Buscar</button>
+                </div>
+
+            </aside>
+        </div>
+
+        <!-- Pie de página -->
+        <footer>
+            <p>Universidad Tecnológica de los Andes</p>
+            <p>Escuela Profesional de Ingeniería de Sistemas</p>
+            <p>&copy; 2026 - Programación Web</p>
+        </footer>
+
+    </div>  
 </body>
 </html>
